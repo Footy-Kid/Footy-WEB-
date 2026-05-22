@@ -1,0 +1,167 @@
+/* FOOTY WEB CSS */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  background: #0f172a;
+  color: white;
+  line-height: 1.6;
+}
+
+/* HEADER */
+
+header{
+  background: #111827;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1{
+  color: #38bdf8;
+  margin-bottom: 10px;
+  font-size: 35px;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  transition: 0.3s;
+}
+
+nav a:hover{
+  color: #38bdf8;
+}
+
+/* HERO SECTION */
+
+#home{
+  padding: 80px 20px;
+  text-align: center;
+}
+
+#home h2{
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+#home span{
+  color: #38bdf8;
+}
+
+#home p{
+  max-width: 600px;
+  margin: auto;
+  color: #cbd5e1;
+}
+
+#home a{
+  display: inline-block;
+  margin-top: 20px;
+  background: #38bdf8;
+  color: black;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#home a:hover{
+  transform: scale(1.05);
+}
+
+/* ABOUT SECTION */
+
+#about{
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#about h2{
+  color: #38bdf8;
+  margin-bottom: 20px;
+}
+
+#about p{
+  max-width: 700px;
+  margin: auto;
+  color: #cbd5e1;
+}
+
+/* PLAYERS SECTION */
+
+#players{
+  padding: 60px 20px;
+}
+
+#players h2{
+  text-align: center;
+  color: #38bdf8;
+  margin-bottom: 30px;
+}
+
+.player-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.player-card{
+  background: #1e293b;
+  padding: 20px;
+  width: 250px;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.player-card:hover{
+  transform: translateY(-10px);
+}
+
+.player-card h3{
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+/* CONTACT SECTION */
+
+#contact{
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#contact h2{
+  color: #38bdf8;
+  margin-bottom: 20px;
+}
+
+/* FOOTER */
+
+footer{
+  background: #111827;
+  text-align: center;
+  padding: 20px;
+  color: #94a3b8;
+}
+
+/* RESPONSIVE */
+
+@media(max-width: 768px){
+
+  #home h2{
+    font-size: 35px;
+  }
+
+  nav a{
+    display: inline-block;
+    margin: 5px;
+  }
+
+}
